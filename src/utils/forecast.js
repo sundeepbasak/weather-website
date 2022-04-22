@@ -14,6 +14,7 @@ const forecast = (latitude, longitude, callback) => {
         weather: response.body.current.weather_descriptions[0],
         temperature: response.body.current.temperature,
         feelsLikeTemperature: response.body.current.feelslike,
+        humidity: response.body.current.humidity,
       });
     }
   });

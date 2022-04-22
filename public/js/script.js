@@ -23,7 +23,11 @@ weatherForm.addEventListener("submit", (e) => {
       } else if (data.geoError) {
         messageOne.textContent = data.geoError;
       } else {
-        const forecastMessage = `${data.forecast.weather} today. Currently ${data.forecast.temperature}\xB0C. Feels like ${data.forecast.feelsLikeTemperature}\xB0C.`;
+        const forecastMessage = `
+        ${data.forecast.weather} today. 
+        Currently ${data.forecast.temperature}\xB0C. 
+        Feels like ${data.forecast.feelsLikeTemperature}\xB0C.
+        Humidity is ${data.forecast.humidity}%.`;
 
         messageOne.textContent = data.location;
         messageTwo.textContent = forecastMessage;
