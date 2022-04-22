@@ -1,0 +1,112 @@
+body{
+    background-color: dodgerblue;
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #333;
+}
+.main-content{
+    flex-grow: 1;
+}
+h1{
+    color: yellow;
+    letter-spacing: 2px;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+img{
+    max-width: 400px;
+    display: block;
+    margin: 10px auto;
+}
+nav{
+    /* background-color: #333; */
+    padding: 10px 0;
+    border-bottom: 2px solid #333;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: yellow;
+}
+
+footer{
+    /* background-color: #333; */
+    padding: 5px;
+    text-align: center;
+    border-top: 2px solid #333;
+}
+footer span{
+    color: yellow;
+}
+h2{
+    text-align: center;
+    color: yellow;
+}
+p{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+.weather-app{
+    max-width: 600px;
+    min-height: 250px;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+input{
+    outline: none;
+    border: none;
+    background-color: dodgerblue;
+    border-bottom: 2px solid #333;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+button{
+    cursor: pointer;
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+button:hover{
+    color: yellow;
+}
+input::placeholder {
+    color: #333;
+}
+:-ms-input-placeholder { 
+   color: #333;
+}  
+::-ms-input-placeholder { 
+   color: #333;
+}
+.display-message{
+    margin-top: 40px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <link rel="icon" href="/images/portfolio-icon.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <h2>Weather App</h2>
+        <div class="weather-app">
+            <form>
+                <input type="text" placeholder="Enter a location">
+                <button>Search</button>
+            </form>
+            <div class="display-message">
+                <p id="message-one"></p>
+                <p id="message-two"></p>
+            </div>
+        </div>    
+    </div>
+    {{>footer}}
+    <script src="/js/script.js"></script>
+</body>
+</html>
+
+
+{{!-- <h3>Lets create a dynamic webpage using handlebar.js</h3> --}}

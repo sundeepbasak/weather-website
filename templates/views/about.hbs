@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About</title>
+    <link rel="icon" href="/images/portfolio-icon.png">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="main-content">
+        {{>header}} 
+        <img src="/images/unsplash-dummy-photo.jpg" alt="dummy-photo" />
+        <h3>Degree: {{degree}}</h3>
+        <h3>Profession: {{profession}}</h3>
+    </div>
+    {{>footer}}
+</body>
+</html>
+
+
+{{! **comments***
+--> we dont need to give the whole relative path from this file to load the css, images, js etc
+--> we just give the relative path from the public folder, as the public folder has already been set in the app.js
+ }}
