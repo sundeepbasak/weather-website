@@ -1,14 +1,14 @@
 {
-  "name": "web-server",
+  "name": "weather-website",
   "version": "1.0.0",
-  "description": "",
+  "description": "weather-website",
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js -e js,hbs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sundeep Basak",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3",
